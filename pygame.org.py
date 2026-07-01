@@ -179,6 +179,8 @@ while True:
         if event.type == KEYDOWN:
             if event.key == K_ESCAPE:
                 exit()
+            else:
+                pass
 
     if Cyber_geraldo.colliderect(Servidor_principal) and component == 3:
         tela.fill((0, 0, 0))
@@ -187,6 +189,8 @@ while True:
         if event.type == KEYDOWN:
             if event.key == K_ESCAPE:
                 exit()
+            else:
+                pass
 
     if Cyber_geraldo.colliderect(Servidor_principal) and component != 3:
         tela.blit(texto_formatado_cmpnt_ins, (155, 60))
